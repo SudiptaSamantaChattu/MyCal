@@ -38,6 +38,17 @@ input{
     animation: rainbow 5s ease-in-out infinite alternate;
 }
 
+@keyframes rainbow {
+    0%{background-color: rgb(193, 7, 193);}
+    16.66%{background-color: rgb(5, 13, 255);}
+    33.32%{background-color: rgb(20, 204, 255);}
+    49.98%{background-color: rgb(2, 148, 2);}
+    66.64%{background-color: rgb(246, 238, 10);}
+    83.3%{background-color: rgb(255, 107, 9);}
+    100%{background-color: rgb(255, 0, 0);}
+    
+}
+
 input::placeholder{
     color: #ffffff;
 }
