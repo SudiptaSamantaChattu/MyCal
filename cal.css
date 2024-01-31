@@ -35,6 +35,7 @@ input{
     text-align: right;
     cursor: pointer;
     color: #ffffff;
+    animation: rainbow 5s ease-in-out infinite alternate;
 }
 
 input::placeholder{
